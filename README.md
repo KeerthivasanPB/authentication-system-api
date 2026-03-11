@@ -2,7 +2,7 @@
 
 A complete **backend authentication system** built using **Node.js**, **Express**, and **MongoDB**, implementing secure user authentication with **JWT**, email verification, and password recovery workflows.
 
-This project was built as a **learning-focused but feature-complete backend system**, following common industry authentication patterns.
+This project implements a feature-complete backend authentication system following common industry authentication patterns.
 
 ---
 
@@ -126,7 +126,7 @@ npm run dev
 ```
 ---
 
-## What I Learned
+## Key Takeaways
 
 - Implementing secure authentication using JWT
 - Managing access and refresh token workflows
@@ -139,14 +139,13 @@ npm run dev
 
 ## Project Status
 
-- Built as a learning project
-- Feature-complete backend authentication system
-- Currently backend-only (no frontend)
-
+- Feature-complete backend authentication service
+- Designed as a standalone REST API
+- Currently configured for development using Mailtrap
+  
 ---
 
 ## Notes
 - Email functionality is configured using Mailtrap for development and testing purposes.
 - Rate limiting is not currently implemented and would be required to protect authentication routes from brute-force and abuse in a production environment.
 - Includes a health check endpoint for monitoring API availability.
-- The system is currently intended for learning and development purposes
